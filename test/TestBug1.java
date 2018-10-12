@@ -41,7 +41,7 @@ public class TestBug1 {
           booking.addServiceCharge(ServiceType.BAR_FRIDGE, cost); // calling addserviceCharge
           List<ServiceCharge> charges = booking.getCharges(); // creating list
           for(ServiceCharge sc: charges) {
-              assertEquals(cost, sc.getCost(), 50); // compare expected and actual values
+              assertEquals(cost, sc.getCost(), 50); // compare expected and actual values // successfull testcase
           }
       }
       
