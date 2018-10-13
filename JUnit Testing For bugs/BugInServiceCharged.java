@@ -33,7 +33,7 @@ public class BugInServiceCharged {
 	Room room;
 	Guest guest;
 	CreditCard card;
-	int occupants=3;
+	int occupants=2;
 
 	@Before 
 	
