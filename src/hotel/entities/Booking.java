@@ -137,8 +137,8 @@ public class Booking {
 		room.checkin();
 	}
 
-
-	public void addServiceCharge(ServiceType serviceType, double cosst) {
+                // variable cosst changed to cost to remove Bug 1 so that it can get actual service charges while checkout
+	public void addServiceCharge(ServiceType serviceType, double cost) {
 		charges.add(new ServiceCharge(serviceType, cost));
 	}
 
