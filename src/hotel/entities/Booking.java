@@ -138,7 +138,7 @@ public class Booking {
 	}
 
 
-	public void addServiceCharge(ServiceType serviceType, double cost) { // resolved the issue for debugging changed cosst to cost
+	public void addServiceCharge(ServiceType serviceType, double cost) { // resolved the issue for debugging changed cosst to cost // resolved 
 		charges.add(new ServiceCharge(serviceType, cost)); 
 	}
 
