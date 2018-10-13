@@ -126,6 +126,8 @@ public class Hotel {
 			throw new RuntimeException(mesg);
 		}
 		booking.checkOut();
+		// remove the booking from activebookingby roomid from hashmap associated with given roomid
+		activeBookingsByRoomId.remove(roomId);
 	}
 
 
