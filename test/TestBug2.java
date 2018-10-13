@@ -83,7 +83,7 @@ public class TestBug2 {
          recordService.serviceDetailsEntered(ServiceType.BAR_FRIDGE, cost);
          Booking expected = null; // Booking must be null 
          Booking book = hotel.findActiveBookingByRoomId(roomID);
-         assertEquals(expected, book);
+         assertEquals(expected, book); // Successful :)
                            
         
           }
