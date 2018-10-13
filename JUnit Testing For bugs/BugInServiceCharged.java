@@ -25,7 +25,7 @@ import src.hotel.entities.ServiceType;
 
 
 
-
+/* @auhtor Harminder Kaur-11645213- Bug 2 Testing Code*/
 public class BugInServiceCharged {
 	Hotel hotel;
 	Date date;
