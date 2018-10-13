@@ -24,7 +24,8 @@ import src.hotel.entities.ServiceType;
 
 
 
-
+/* @author Harminder Kaur -11645213 
+Bug 2 Testing*/
 public class BugInCheckout {
 	Hotel hotel;
 	Date date;
