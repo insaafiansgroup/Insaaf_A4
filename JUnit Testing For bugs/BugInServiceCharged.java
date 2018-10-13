@@ -86,7 +86,7 @@ public class BugInServiceCharged {
 		Booking booking= new Booking(guest,room,date,stayLength,occupants,card);//creating booking object with passing objects as parameters
 		booking.addServiceCharge(ServiceType.RESTAURANT, charge);// calling addServiceCharge method of booking class by passing service type and cost to that service as parameters
 		List<ServiceCharge> charges = booking.getCharges(); // creating list to add charges of type ServiceCharge class
-        for(ServiceCharge servicecharge: charges)//for loop
+        for(ServiceCharge servicecharge: charges)//for loop to add all charges to provide total amount
         {
          assertEquals(charge, servicecharge.getCost(),0); // compare expected and actual value with eplison value by  calling getCost method of serviceCharge class in entities
         }
