@@ -88,7 +88,7 @@ public class BugInServiceCharged {
 		List<ServiceCharge> charges = booking.getCharges(); // creating list to add charges of type ServiceCharge class
         for(ServiceCharge servicecharge: charges)//for loop
         {
-         assertEquals(charge, servicecharge.getCost(),50); // compare expected and actual value by  calling getCost method of serviceCharge class in entities
+         assertEquals(charge, servicecharge.getCost(),0); // compare expected and actual value with eplison value by  calling getCost method of serviceCharge class in entities
         }
 	}
 
